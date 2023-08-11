@@ -1,11 +1,4 @@
-import {
-  IoCodeWorking,
-  IoLogoGithub,
-  IoLogoYoutube,
-  IoLogoTwitter,
-  IoLogoLinkedin,
-  IoLogoWhatsapp,
-} from "react-icons/io5";
+import { IoLogoGithub, IoLogoTwitter, IoLogoLinkedin, IoLogoWhatsapp } from "react-icons/io";
 import img1 from "./assets/fooddeliveryapp.png";
 import img2 from "./assets/socialmedia.png";
 import img3 from "./assets/google-map.png";
@@ -105,5 +98,32 @@ export const Projects = [
     imageSrc: img6,
     techs: "NextJs, Firebase Auth",
     github: "#",
+  },
+];
+
+export const SocialLinks = [
+  {
+    id: 1,
+    name: "GitHub",
+    iconSource: <IoLogoGithub className="text-gray-500 text-3xl cursor-pointer" />,
+    link: "#",
+  },
+  {
+    id: 2,
+    name: "Twitter",
+    iconSource: <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />,
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "LinkedIn",
+    iconSource: <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />,
+    link: "#",
+  },
+  {
+    id: 4,
+    name: "Whatsapp",
+    iconSource: <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />,
+    link: "#",
   },
 ];
